@@ -7,7 +7,7 @@ $(document).ready(function () {
   $('#weatherLocation').click(function () {
     let city = $('#location').val();
     $('#location').val("");
-
+    console.log("slaim here");
     // New code begins here.
 
     let promise = new Promise(function (resolve, reject) {
